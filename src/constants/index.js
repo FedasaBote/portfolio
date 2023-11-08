@@ -184,42 +184,38 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Real State Website",
+    name: "JBook",
     description:
-      "A Responsive Real State Website with animations, dark and light mode, mobile first pleasant user interface",
+      "A Web Based JavaScript Editor, that can transpile React JSX code to javascript",
     tags: [
       {
-        name: "html",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
-        name: "js",
+        name: "React",
         color: "pink-text-gradient",
       },
     ],
     image: real_state,
-    source_code_link: "https://github.com/abitewaddisu/responsive_real_state_website",
+    source_code_link: "https://github.com/FedasaBote/jbook/blob/main/jbook.png",
   },
   {
-    name: "Proshop",
+    name: "Habit Tracker",
     description:
-      "A full-featured shopping cart solution with integrated PayPal and credit/debit payment processing",
+      "A flutter habit tracker using Animation Controller, CustomPaint and Gesture Detector",
     tags: [
       {
-        name: "react.js",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "express.js",
+        name: "Dart",
         color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
       },
     ],
     image: proshop,
