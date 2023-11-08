@@ -30,8 +30,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import real_state from "./project/real_state.png"
-import proshop from './project/proshop.png'
+import real_state from "./project/real_state.png";
+import proshop from "./project/proshop.png";
+import jbook from "./project/jbook.png";
+import tracker from "./project/tracker.png";
 
 export {
   logo,
@@ -64,4 +66,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  jbook,
+  tracker,
 };

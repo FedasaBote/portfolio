@@ -22,9 +22,11 @@ import {
   carrent,
   real_state,
   proshop,
+  tracker,
   jobit,
   tripguide,
   threejs,
+  jbook,
 } from "../assets";
 
 export const navLinks = [
@@ -182,6 +184,7 @@ const testimonials = [
   },
 ];
 
+// https://github.com/FedasaBote/ProShop
 const projects = [
   {
     name: "JBook",
@@ -201,8 +204,28 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: real_state,
-    source_code_link: "https://github.com/FedasaBote/jbook/blob/main/jbook.png",
+    image: jbook,
+    source_code_link: "https://github.com/FedasaBote/jbook",
+  },
+  {
+    name: "ProShop",
+    description: "A react E-commerce app",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React-Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: proshop,
+    source_code_link: "https://github.com/FedasaBote/ProShop",
   },
   {
     name: "Habit Tracker",
@@ -218,8 +241,27 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: proshop,
-    source_code_link: "https://github.com/abitewaddisu/proshop",
+    image: tracker,
+    source_code_link: "https://github.com/FedasaBote/HabitTracker-App",
+  },
+  {
+    name: "Sort Visualizer",
+    description:
+      "A flutter Sort Visualizer helps in visualizing how different sorting algorithms work, using StreamController and CustomPainter",
+    tags: [
+      {
+        name: "flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "StreamController and CustomPainter",
+        color: "green-text-gradient",
+      },
+    ],
+    image:
+      "https://github.com/FedasaBote/Sorting_Visualizer/blob/main/algos/bubblesort%20(2).gif",
+
+    source_code_link: "https://github.com/FedasaBote/Sorting_Visualizer",
   },
 ];
 
